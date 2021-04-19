@@ -7,13 +7,18 @@
 // array.Inside the array, include at least 4 values.
 let goodDoggo = {
   //your code in here
-}
+  name = "",
+  legs = 0,
+  tail = Boolean,
+  likes = [happy, tolerant, mad, sad]
+};
 
 
 // write a function that returns the value of the legs property on your dog object using dot notation.
 function howManyLegs() {
   // your code inside here
   // don't forget to use the return keyword
+  return(goodDoggo.legs);
 }
 
 // Cat Challenges

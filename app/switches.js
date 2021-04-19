@@ -7,7 +7,31 @@
     // output: 7
 
 function daysPosition(day, offset) {
-
+    dayValue = 0;
+    switch(day){
+        case "Monday":
+            dayValue = 1;
+        break;
+        case "Tuesday":
+            dayValue = 2;
+        break;
+        case "Wednesday":
+            dayValue = 3;
+        break;
+        case "Thursday":
+            dayValue = 4;
+        break;
+        case "Friday":
+            dayValue = 5;
+        break;
+        case "Saturday":
+            dayValue = 6:
+        break;
+        case "Sunday":
+            dayValue = 7;
+        break;
+    }
+    return (dayValue);
 }
 
 
