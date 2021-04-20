@@ -10,7 +10,7 @@ let goodDoggo = {
   name = "",
   legs = 0,
   tail = Boolean,
-  likes = [happy, tolerant, mad, sad]
+  likes =[happy, tolerant, mad, sad]
 };
 
 
@@ -18,7 +18,13 @@ let goodDoggo = {
 function howManyLegs() {
   // your code inside here
   // don't forget to use the return keyword
-  return(goodDoggo.legs);
+  // let gDog = goodDoggo;
+  // gDog.name = "Brutus";
+  // gDog.legs = 4;
+  // gDog.tail = true;
+  // gDog.likes = [happy, tolerant, mad, sad];
+
+  // return gDog;
 }
 
 // Cat Challenges
