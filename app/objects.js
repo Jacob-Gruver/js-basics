@@ -18,13 +18,13 @@ let goodDoggo = {
 function howManyLegs() {
   // your code inside here
   // don't forget to use the return keyword
-  // let gDog = goodDoggo;
-  // gDog.name = "Brutus";
-  // gDog.legs = 4;
-  // gDog.tail = true;
-  // gDog.likes = [happy, tolerant, mad, sad];
+  let gDog = goodDoggo;
+  gDog.name = "Brutus";
+  gDog.legs = 4;
+  gDog.tail = true;
+  gDog.likes = [happy, tolerant, mad, sad];
 
-  // return gDog;
+  return gDog;
 }
 
 // Cat Challenges
